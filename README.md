@@ -33,3 +33,13 @@ Although the data set contains Hospital ID (`THCIC_ID`) attribute, this is only 
 - `attribute_idx` contains the index of each catrgorical feature in `texas_100x_features.p`.
 - `attribute_dict` contains the feature dictionary with a label for each feature outcome.
 - `max_attr_vals` contains the maximum value of each feature, since the feature values in `texas_100x_features.p` are normalized by dividing with the maximum value.
+
+
+## Disclosure
+
+This data set is only intended to be used as a real-world benchmark data set for machine learning tasks and to analyze the privacy leakage of the models. The records in the data set are anonymized to protect the identity of the patients and only a numeric Hospital ID is provided for the sake of demographic visualization and data sampling. Any attempt to identify the individuals is strictly prohibited. Finally, no demographic conclusions or decisions should be made from the data set that harm the population.
+
+
+## Source
+
+Texas Hospital Inpatient Discharge Public Use Data File, [Quarters 1-4, 2006]. Texas Department of State Health Services, Austin, Texas. [June 21, 2022].
