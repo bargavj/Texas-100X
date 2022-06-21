@@ -1,5 +1,5 @@
 # Texas-100X
-This repository contains the code to obtain an extended version of Texas-100 hospital data set.
+This repository contains the code to obtain an extended version of Texas-100 hospital data set. The data set consists of patient records from 441 hospitals in Texas state from the year 2006. 
 
 To generate the data files, you would need to download the PUDF_base1q2006_tab.txt, PUDF_base2q2006_tab.txt, PUDF_base3q2006_tab.txt and PUDF_base4q2006_tab.txt files from https://www.dshs.texas.gov/THCIC/Hospitals/Download.shtm and store them in `data/` directory.
 
