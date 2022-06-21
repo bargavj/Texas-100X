@@ -37,7 +37,7 @@ Although the data set contains Hospital ID (`THCIC_ID`) attribute, this is only 
 
 ## Disclosure
 
-This data set is only intended to be used as a real-world benchmark data set for machine learning tasks and to analyze the privacy leakage of the models. The records in the data set are anonymized to protect the identity of the patients and only a numeric Hospital ID is provided for the sake of demographic visualization and data sampling. Any attempt to identify the individuals is strictly prohibited. Finally, no demographic conclusions or decisions should be made from the data set that harm the population.
+This data set is only intended to be used as an academic benchmark data set for machine learning tasks and to analyze the privacy leakage of the models. The records in the data set are anonymized to protect the identity of the patients and only a numeric Hospital ID is provided for the sake of demographic visualization and data sampling. Any attempt to identify the individuals is strictly prohibited. Finally, no demographic conclusions or decisions should be made from the data set that harm the population. Any other use of the data set requires permission from the Texas Department of State Health Services (DSHS). 
 
 
 ## Source
