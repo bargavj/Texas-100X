@@ -1,8 +1,10 @@
 from os import listdir
 from os.path import isfile, join
 from pprint import pprint
+from collections import Counter
 import numpy as np
 import pandas as pd
+import pickle
 
 DATA_PATH = 'data/'
 OUT_PATH = 'output/'
@@ -80,7 +82,7 @@ def preprocess_texas():
     X = np.matrix(df.drop(columns='PRINC_SURG_PROC_CODE'))
     print(X.shape, y.shape)
     
-    df.to_csv(OUT_PATH+'texas_100x.csv')
+    df.to_csv(OUT_PATH+'texas_100x.csv', index=False)
     
     max_attr_vals = np.max(X, axis=0)
     X = X / max_attr_vals
